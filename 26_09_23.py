@@ -13,3 +13,10 @@ while sum<a:
  sum=sum+i
  i=i+1
 print(i-1)
+
+
+#6038 : [Basic-Arithmetic Operations] Calculate exponents from 2 integers (Explanation)(py)
+a,b=input().split()
+a=int(a)
+b=int(b)
+print(a**b)
