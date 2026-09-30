@@ -1,7 +1,7 @@
 # 6078 : [Basic-Comprehensive] Repeat printing until a desired character is entered (py)
 a="y"
 while a!="q":
-  a=ihttps://github.com/CIT-Code-Academy-gyuribaik/03-IanS-python-01-codeup/pullsnput()
+  a=1
   print(a)
 
 
