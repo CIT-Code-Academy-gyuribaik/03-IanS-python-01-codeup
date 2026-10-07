@@ -26,3 +26,7 @@ def solution(money):
 def solution(num_list):
     num_list.reverse()  
     return num_list
+#뒤집힌 문자열
+def solution(my_string):
+    return  my_string[::-1]
+    
