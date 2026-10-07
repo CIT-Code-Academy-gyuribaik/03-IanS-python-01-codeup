@@ -16,3 +16,13 @@ def solution(slice, n):
         return n/slice
     else:
         return int(n/slice)+1
+#배열의 평균값
+def solution(numbers):
+    return sum(numbers)/len(numbers)
+#아이스 아메리카노
+def solution(money):
+    return [money//5500,money%5500]
+#배열 뒤집기
+def solution(num_list):
+    num_list.reverse()  
+    return num_list
