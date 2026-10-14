@@ -19,3 +19,13 @@ def solution(num_list):
         else:
             even_count +=1
     return [even_count,odd_count]  
+
+
+#문자 반복 출력하기
+def solution(my, n):
+    answer="" 
+    for i in range(len(my)):
+        answer+=my[i]*n    
+    return answer
+
+
