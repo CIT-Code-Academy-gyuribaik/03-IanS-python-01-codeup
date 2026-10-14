@@ -35,3 +35,9 @@ def solution(my, n):
     for i in my:
         answer+=i*n    
     return answer
+
+#특정 문자 제거하기
+
+def solution(my, letter):
+    result = my.replace(letter,"")
+    return result
