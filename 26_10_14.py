@@ -28,4 +28,10 @@ def solution(my, n):
         answer+=my[i]*n    
     return answer
 
+#문자 반복 출력하기(2)
 
+def solution(my, n):
+    answer="" 
+    for i in my:
+        answer+=i*n    
+    return answer
