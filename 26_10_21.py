@@ -18,3 +18,7 @@ def solution(n):
         if n==0:
             break    
     return sum       
+
+#배열 자르기
+def solution(numbers, num1, num2):
+    return numbers[num1:num2+1]
