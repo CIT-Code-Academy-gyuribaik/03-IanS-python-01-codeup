@@ -22,3 +22,14 @@ def solution(n):
 #배열 자르기
 def solution(numbers, num1, num2):
     return numbers[num1:num2+1]
+
+#순서쌍의 개수
+
+def solution(n):
+    sum =0
+    for a in range(1,n+1):
+        if n%a==0:
+            sum=sum+1
+    return sum    
+
+
