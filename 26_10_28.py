@@ -37,3 +37,15 @@ def solution(my_string):
        else: 
           a= a+my_string[i].lower() 
       return a     
+
+#제출 내역
+def solution(n):
+    a=[]
+    for i in range(1,n+1):
+       if n%i==0:
+          a.append(i) 
+    #편지
+    return a        
+def solution(message):
+    return len(message)*2
+    
