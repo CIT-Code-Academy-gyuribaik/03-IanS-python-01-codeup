@@ -44,8 +44,15 @@ def solution(n):
     for i in range(1,n+1):
        if n%i==0:
           a.append(i) 
-    #편지
-    return a        
+          return a       
+    #편지   
 def solution(message):
     return len(message)*2
     
+#가장 큰 수 찾기
+def solution(array):
+    ans=[]
+    a=array.copy()
+    a.sorend(a[-1])
+    ans.append(array.index(a[-1]))
+    return ans
