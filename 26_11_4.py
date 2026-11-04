@@ -15,3 +15,12 @@ def solution(n, numlist):
             ans.append(a)
     return ans    
 # in arrangements we use append not addition
+
+#자릿수 더하기
+def solution(n):
+    ans=0
+    a=str(n)
+    for i in a:
+        ans=ans+int(i)
+    return ans    
+# int to str = number to sequence
