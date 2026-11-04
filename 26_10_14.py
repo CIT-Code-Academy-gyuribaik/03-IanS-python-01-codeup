@@ -20,7 +20,12 @@ def solution(num_list):
             even_count +=1
     return [even_count,odd_count]  
 
-
+#1:for a in num_list= directly putting a into the num_list variable (doing the equations/act right onto the variable a.)
+#2:for i in range(len(num_list))=using indexes to find out the number (doing the equation/act onto the index.) 
+                                #1.range(3) index 0,1,2
+                                # 2.range(1,5) index 1,2,3,4           
+                                # 3.range(1,10,2) index 1,3,5,7,9
+                                    
 #문자 반복 출력하기
 def solution(my, n):
     answer="" 
