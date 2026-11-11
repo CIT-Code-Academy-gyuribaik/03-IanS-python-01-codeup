@@ -13,3 +13,15 @@ def solution(n):
     else:
         return  2 if 
 #if n squared is an integer we return 1
+
+#세균 증식
+def solution(n, t):
+    return n*(2**t)세균 증식
+
+#머쓱이보다 키 큰 사람
+def solution(array, height):
+    sum=0
+    for x in array:
+        if height < x:
+           sum = sum+1
+    return sum      
