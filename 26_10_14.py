@@ -25,7 +25,7 @@ def solution(num_list):
                                 #1.range(3) index 0,1,2
                                 # 2.range(1,5) index 1,2,3,4           
                                 # 3.range(1,10,2) index 1,3,5,7,9
-                                    
+#if we use len,the code's i needs to be replaced with an index                                    
 #문자 반복 출력하기
 def solution(my, n):
     answer="" 
