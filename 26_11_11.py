@@ -62,3 +62,15 @@ def solution(numbers):
         result.append(2*numbers[n])
     return result 
 # len(numbers)=replacing n with numbers[n]
+
+#두 수의 연산값 비교하기
+def solution(a, b):
+    num1=int(str(a)+str(b))
+    num2=2*a*b
+    
+    if num1>num2:
+        return num1
+    elif num1<num2:
+        return num2
+    else:
+        return num1
