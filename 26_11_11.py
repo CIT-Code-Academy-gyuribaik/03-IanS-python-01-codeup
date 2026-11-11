@@ -46,3 +46,4 @@ def solution(n):
         if a%2==1 and a<=n:
             b.append(a)  
     return b    
+#we append a if it is a%2==1 and a<=n,to the empty b
