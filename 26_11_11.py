@@ -54,3 +54,11 @@ def solution(numbers):
     for n in numbers:
         result.append(2*n)
     return result 
+
+#배열 두 배 만들기
+def solution(numbers):
+    result=[]
+    for n in range(len(numbers)):
+        result.append(2*numbers[n])
+    return result 
+# len(numbers)=replacing n with numbers[n]
