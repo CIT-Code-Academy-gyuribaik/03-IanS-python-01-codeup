@@ -37,3 +37,12 @@ def solution(price):
     return int(price)    
 #if you use more than one if they all get counted causing an invalid answer
 #if you go from least to greatest they all get counted and it returns an invalid answer
+
+#짝수는 싫어요
+def solution(n):
+    b=[]
+    a=0
+    for a in range (n+1):
+        if a%2==1 and a<=n:
+            b.append(a)  
+    return b    
