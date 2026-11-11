@@ -25,3 +25,15 @@ def solution(array, height):
         if height < x:
            sum = sum+1
     return sum      
+
+#옷가게 할인 받기
+def solution(price):    
+    if price>=500000:
+        price=price*(0.8)
+    elif price>=300000:
+        price=price*(0.9)
+    elif price>=100000:
+        price=price*(0.95)  
+    return int(price)    
+#if you use more than one if they all get counted causing an invalid answer
+#if you go from least to greatest they all get counted and it returns an invalid answer
