@@ -47,3 +47,10 @@ def solution(n):
             b.append(a)  
     return b    
 #we append a if it is a%2==1 and a<=n,to the empty b
+
+#배열 두 배 만들기
+def solution(numbers):
+    result=[]
+    for n in numbers:
+        result.append(2*n)
+    return result 
