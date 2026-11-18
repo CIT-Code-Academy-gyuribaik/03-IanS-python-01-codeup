@@ -11,3 +11,9 @@ for i in range(len(str) ):
 #n 번째 원소부터
 def solution(num_list, n):
       return num_list[n-1:]
+#문자열 정수의 합
+def solution(num_str):
+    sum=0    
+    for n in num_str:
+        sum=int(sum)+int(n)
+    return sum    
