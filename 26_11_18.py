@@ -17,3 +17,7 @@ def solution(num_str):
     for n in num_str:
         sum=int(sum)+int(n)
     return sum    
+
+#문자열의 앞의 n글자
+def solution(my_string, n):
+    return my_string[:n]
