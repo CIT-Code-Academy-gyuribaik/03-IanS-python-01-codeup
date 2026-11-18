@@ -17,7 +17,12 @@ def solution(num_str):
     for n in num_str:
         sum=int(sum)+int(n)
     return sum    
-
 #문자열의 앞의 n글자
 def solution(my_string, n):
     return my_string[:n]
+#글자 이어 붙여 문자열 만들기
+def solution(my_string, index_list):
+    a=""
+    for n in index_list:
+        a=a+str(my_string[n])    
+    return a
